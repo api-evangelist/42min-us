@@ -1,4 +1,4 @@
-# 42min-us
+# 42min
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-42min-us is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://42min.us/
+42min offers a free, highly customizable meeting scheduling platform featuring routing forms, automations, round‑robin scheduling, meeting polls, team management, and a robust API with webhooks in 14 programming languages. It enables businesses to streamline appointment booking, integrate with CRM systems, and automate workflows without cost.
+
+**Areas:** Scheduling · Free · API · Webhooks · Automation
+
+## 42min on APIs.io
+
+Everything profiled for 42min is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/42min-us/](https://apis.io/providers/42min-us/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [42min API](https://apis.io/apis/42min-us/42min-api/) — Scheduling, availability and bookings for the 42min platform.
+- [42min API API](https://apis.io/apis/42min-us/42min-api-api/) — The 42min public REST API.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [42Min Us Webhooks](https://apis.io/asyncapis/42min-us/42min-us-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Booking](https://apis.io/schemas/42min-us/42min-us-booking/)
+- [CreateBookingRequest](https://apis.io/schemas/42min-us/42min-us-create-booking-request/)
+- [CreateSeriesRequest](https://apis.io/schemas/42min-us/42min-us-create-series-request/)
+- [EventTypeDetail](https://apis.io/schemas/42min-us/42min-us-event-type-detail/)
+- [Series](https://apis.io/schemas/42min-us/42min-us-series/)
+- [SeriesActionResult](https://apis.io/schemas/42min-us/42min-us-series-action-result/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [42Min Us Context](https://apis.io/jsonld/42min-us/42min-us-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [42min API Rules](https://apis.io/rules/42min-us/42min-us-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [42Min Us Authentication](https://apis.io/security/42min-us/42min-us-authentication/)
+- [42Min Us Domain Security](https://apis.io/security/42min-us/42min-us-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [42Min Us Plans Pricing](https://apis.io/plans/42min-us/42min-us-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [42Min Us Rate Limits](https://apis.io/rate-limits/42min-us/42min-us-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://42min.us/)
+- [Getting started](https://42min.us/help/getting-started/what-is-42min)
+- [API reference](https://42min.us/help/api/llms-full.txt)
+- [Pricing](https://42min.us/pricing)
+- [Sign up](https://42min.us/360/signup)
+- [Support](https://42min.us/help)
+- [Changelog](https://42min.us/news/changelog)
+- [Blog](https://42min.us/blog)
+- [Terms of service](https://42min.us/legal/terms)
+
+## API Evangelist rating
+
+**Kin Score 58.5** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 60.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 52.1 |
+| Developer ergonomics | 44.5 |
+| Access clarity | 53.2 |
+
+**Agent readiness 45.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | derived (partial credit) |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/42min-us/](https://apis.io/providers/42min-us/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 42min: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/42min-us/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
