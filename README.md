@@ -66,7 +66,7 @@
 
 42min offers a free, highly customizable meeting scheduling platform featuring routing forms, automations, round‑robin scheduling, meeting polls, team management, and a robust API with webhooks in 14 programming languages. It enables businesses to streamline appointment booking, integrate with CRM systems, and automate workflows without cost.
 
-**Areas:** Scheduling · Free · API · Webhooks · Automation
+**Areas:** Scheduling · Free · Webhook · Automation
 
 ## 42min on APIs.io
 
@@ -86,6 +86,12 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 Event-driven and webhook contracts.
 
 - [42Min Us Webhooks](https://apis.io/asyncapis/42min-us/42min-us-webhooks/)
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [42min-us-mcp.yml](https://apis.io/servers/42min-us/42min-us-mcp-yml/)
 
 #### JSON Schema (6)
 
@@ -114,20 +120,20 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [42Min Us Authentication](https://apis.io/security/42min-us/42min-us-authentication/)
-- [42Min Us Domain Security](https://apis.io/security/42min-us/42min-us-domain-security/)
+- [42min Authentication](https://apis.io/security/42min-us/42min-us-authentication/)
+- [42min Domain Security](https://apis.io/security/42min-us/42min-us-domain-security/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [42Min Us Plans Pricing](https://apis.io/plans/42min-us/42min-us-plans-pricing/)
+- [42min Plans Pricing](https://apis.io/plans/42min-us/42min-us-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [42Min Us Rate Limits](https://apis.io/rate-limits/42min-us/42min-us-rate-limits/)
+- [42min Rate Limits](https://apis.io/rate-limits/42min-us/42min-us-rate-limits/)
 
 ## Where to find this API
 
@@ -145,31 +151,31 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 58.5** — strong · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 49.6** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 67.9 |
+| Discoverability | 66.1 |
 | Contract quality | 60.4 |
-| Contract governance | 79.1 |
-| Operational transparency | 52.1 |
+| Contract governance | 22.0 |
+| Operational transparency | 50.0 |
 | Developer ergonomics | 44.5 |
 | Access clarity | 53.2 |
 
-**Agent readiness 45.9** — agent-ready (gated down from agent-native)
+**Agent readiness 42.3** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
 | Agentic Access | — |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | served (partial credit) |
 | Idempotency | derived (partial credit) |
 | Error Semantics | derived (partial credit) |
 | OpenAPI Examples | — |
 | Rate Limit Signal | documented (partial credit) |
-| Event Surface Described | unknown |
+| Event Surface Described | yes |
 | Agent Skills | unknown |
 | Well Known Catalog | — |
 | Consent Identity | — |
@@ -181,8 +187,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 14.7** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/42min-us/](https://apis.io/providers/42min-us/).
 
